@@ -1,5 +1,14 @@
 
-1. odd even  1 to 10 , with all loops 
-2. 0 sunday 6- saturday
-3. all types of if else along with logical operator
-4. table
+1. odd even  1 to 10 , with all loops  (while, do while, for)
+2. 0 sunday 6- saturday using switch case
+3. all types of if else along with logical operator (simple, ladder)
+4. table  
+    2 * 1 = 2
+    2 * 2 = 4
+    2 * 3 = 6
+    ...so on up to 10
+5. Replace all word from paragraph
+6. cut part of strings.
+7. sperate string from given charater(ex: comma , full-stop , any alphabates);
+8. remove extra space form starting and ending of string.
+

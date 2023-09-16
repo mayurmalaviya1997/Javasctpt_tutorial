@@ -1,0 +1,11 @@
+
+
+
+1.intro-lecture (importtant-photos)
+2.operators
+3.loops (pattern)
+4.Truthy-and-Falsy-Values
+5.important
+6.strings
+
+
