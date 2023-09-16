@@ -1,0 +1,5 @@
+
+1. odd even  1 to 10 , with all loops 
+2. 0 sunday 6- saturday
+3. all types of if else along with logical operator
+4. table
