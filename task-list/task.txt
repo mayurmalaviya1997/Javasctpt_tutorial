@@ -12,3 +12,31 @@
 7. sperate string from given charater(ex: comma , full-stop , any alphabates);
 8. remove extra space form starting and ending of string.
 
+9. JavaScript Program to Calculate the Area of a square (l*l , ).
+10. JavaScript Program to Calculate the Area  of a circle (parigh: 2*PI*r , ).
+11. JavaScript Program to Calculate the Area and volume of a cyliner.
+12. JavaScript Program to Swap Two Variables without third variable.
+13. Javascript Program to Check if a number is Positive, Negative, or Zero
+
+
+// JavaScript Program to Check Armstrong Numbe
+
+153
+1+125+27 => 153;
+
+// 5
+
+// mayur mnalavuta jddjdjjd jjdjjd
+// Mayur Mnalavuta Jddjdjjd Jjdjjdso
+
+// ATM machine
+
+// create PIN -> validation only numeric try again
+// reset PIN -> validation only numeric try again (3);
+
+// cash add /credit
+// cash withdraw
+
+
+
+

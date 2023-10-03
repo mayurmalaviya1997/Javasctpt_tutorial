@@ -1,11 +1,23 @@
 
 
 
-1.intro-lecture (importtant-photos)
+1.intro-lecture (important-photos)
 2.operators
 3.loops (pattern)
 4.Truthy-and-Falsy-Values
 5.important
 6.strings
+
+7. how to get input and Math library
+8. getElementById
+9. functions
+    function declaration
+
+10. scope
+    local scope
+    global scope
+    function scope
+11. how javascript work
+12. debugger
 
 

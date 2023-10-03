@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <span id="navigation"></span>
+    <div id="navigation">
+        <span>mayur</span>
+        <p>tile</p>
+    </div>
+
+    <div class="posts">
+        <ul>
+            <li class="list-items item_1">item-1</li>
+            <li class="list-items item_2">item-2</li>
+            <li class="list-items item_3">item-3</li>
+            <li class="list-items item_4">item-4</li>
+            <li class="list-items item_5">item-5
+                <span class="list-items"> sameee 
+                    <p>third</p>
+                </span>
+            </li>
+            <img src="" alt="">
+            <input type="text">
+        </ul>
+    </div>
+    <img class="list-items" src="" alt="">
+    <script>
+        // by Id
+        let navigationEle = document.getElementById('navigation');
+        // console.log(`====>> navigationEle>>>`, navigationEle)
+        // by class name
+        let listItem = document.getElementsByClassName("list-items")
+        console.log(`====>> `, listItem)
+        // querySelector
+        let navigationEleByQuery = document.querySelector("#navigation")
+        let listItemByQuery = document.querySelectorAll(".list-items")
+        // console.log(`====>> navigationEleByQuery`,navigationEleByQuery)
+        console.log(`====>> listItemByQuery`,listItemByQuery)   
+
+        // div .post
+        let ele = document.querySelectorAll("div.posts > ul > li");
+        for (const item of ele) {
+            // console.log(`====>> `,item.innerHTML) //for getting HTML 
+            console.log(`====>> `,item.textContent) // for text content with space as it is
+            console.log(`====>> `,item.innerText) // for text content with space as it 
+        }
+
+    </script>
+</body>
+
+</html>

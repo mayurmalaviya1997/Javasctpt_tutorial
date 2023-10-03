@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Query Selectors</title>
+</head>
+<body>
+    <div id="main_id">
+        <h1>this is main with id</h1>
+        <h1 class="my_h2">this second h1</h1>
+        <h1 class="my_h2">this second h1</h1>
+        <div>
+            <div>
+                <span>
+                    <h1 class="my_h2">this second h1</h1>
+                </span>
+            </div>
+        </div>
+    </div>
+    <h1 class="my_h2">this second h1</h1>
+    <div class="main_1 class_1 class_2">
+        <span>this is span tag</span>
+        <span>this is span tag</span>
+        <p>this is p tag</p>
+        <img src="" alt="">
+        <div class="sub_1">
+            <span class="peta_1"></span>
+        </div>
+    </div>
+    <script>
+        /*-> query selectors */
+        let ele = document.querySelector("#main_id > h1")
+        let allEle = document.querySelectorAll("#main_id > .my_h2")
+
+        for (const element of allEle) {
+            element.innerHTML = `${element.innerHTML} - updated with js`
+        }
+
+        console.log(`====>> `,ele)
+        console.log(`====>> `,allEle)
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Selectors in dom</title>
+    <style>
+        span{
+            display: block;
+        }
+    </style>
+</head>
+    
+<body>
+    <div id="main_1"> 
+        <h1>main-1</h1>
+    </div>
+    <img src="" alt="" id="my_image">
+
+    <!-- class -->
+
+    <span class="class_1 class_3">span-1</span>
+    <span class="class_1">span-1</span>
+    <span class="class_1">span-1</span>
+    <span class="class_2">span-with class-2 </span>
+    <div class="class_2"> div with class -2</div>
+    <p class="class_1">paragraph one</p>
+    <h6 class="class_1">jheadingdd</h6>
+
+    <script>
+        /*-> change content of div that have  */
+        let mainEle = document.getElementById("main_1");
+        console.log(`====>> `,mainEle)
+        mainEle.innerHTML = `<h1> main-1 updated</h1> <span> this is span add after </span>`
+
+        let imgEle = document.getElementById("my_image")
+        console.log(`====>> `,imgEle)
+
+        // to select based on clsses 
+        let allEleWithClass_1 =  document.getElementsByClassName('class_1');
+        for (const element of allEleWithClass_1) {
+            element.innerHTML = `${element.innerHTML} update added`
+        }
+    </script>
+</body>
+</html>

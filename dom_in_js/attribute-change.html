@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title> Attribute</title>
+
+    <style>
+        .red{
+            color:red
+        }
+        .redLight{
+            color: lightcoral;
+        }
+
+        .class_5{
+            color: red;
+        }
+        .class_4{
+            font-size: 30px;
+        }
+        .class_6{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main" class="main-item class-1 class-2 class-3">
+        main
+    </div>
+
+    
+
+    <img class="my_image" alt="">
+    <script>
+        /*->
+            getAttributes
+            setAttributes
+        */
+        let mainEle = document.querySelector("#main")
+        let oldClasses = mainEle.getAttribute('class');
+        mainEle.setAttribute("class" , `${oldClasses} class_4 class_5 class_6`)
+
+
+        // setAttribute('attribute name', "value")
+        // mainEle.setAttribute('class', "new-over-ride-class")
+        // console.log(`====>> `, mainEle.getAttribute('class'))
+
+        let imageUrl = `https://images.pexels.com/photos/18253778/pexels-photo-18253778/free-photo-of-antelope-canyons.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`
+
+        let imageEle = document.querySelector(".my_image")
+        // imageEle.setAttribute('src',imageUrl)
+        // imageEle.setAttribute('width',"50%")
+    </script>
+</body>
+
+</html>
